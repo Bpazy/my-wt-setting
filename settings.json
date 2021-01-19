@@ -21,7 +21,8 @@
         "defaults": {
             // Put settings here that you want to apply to all profiles.
             "colorScheme": "Afterglow",
-            "fontSize": 10
+            "fontSize": 10,
+            "startingDirectory": "."
         },
         "list": [
             {
@@ -113,7 +114,13 @@
             "keys": "alt+shift+d"
         },
         // Close Tab
-        { "command": "closeTab", "keys": "ctrl+w" },
-        { "command": "newTab", "keys": "ctrl+t" }
+        {
+            "command": "closeTab",
+            "keys": "ctrl+w"
+        },
+        {
+            "command": "newTab",
+            "keys": "ctrl+t"
+        }
     ]
 }
